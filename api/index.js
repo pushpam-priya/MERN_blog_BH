@@ -57,7 +57,7 @@ mongoose.set('strictQuery', false);
 //mongoose.connect('mongodb+srv://pranish7:iWtwDefsxyIW7l6f@cluster0.spvaerv.mongodb.net/?retryWrites=true&w=majority');
 //mongoose.connect('mongodb+srv://pushpampriyaa:XwZiR39cpnPwvMX2@cluster0.0izgnrc.mongodb.net/?retryWrites=true&w=majority');
 
-MONGO_PROD_URI = 'mongodb+srv://pranish_7:565q3JePMwdgud7i@cluster0.ztoy5yl.mongodb.net/?retryWrites=true&w=majority';
+MONGO_PROD_URI =  'mongodb://localhost:27017/newDB';
 
 mongoose
   .connect(MONGO_PROD_URI, {
